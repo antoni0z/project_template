@@ -1,2 +1,16 @@
-# project_template
-A template for my  python projects with included zed configuration.
+## Project
+This is a template project.
+
+### Goals
+* [ ]
+* [ ]
+* [ ]
+
+### Examples
+
+### How to install
+
+To install dependencies do:
+
+* chmod +x autoinstall
+* . autoinstall
