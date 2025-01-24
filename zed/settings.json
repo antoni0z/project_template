@@ -1,0 +1,72 @@
+// Folder-specific settings
+//
+// For a full list of overridable settings, and general information on folder-specific settings,
+// see the documentation: https://zed.dev/docs/configuring-zed#settings-files
+{
+  "auto_install_extensions": {
+    "catppuccin": true,
+    "html": true,
+    "dockerfile": true,
+    "docker-compose": true,
+    "toml": true,
+    "make": true
+  },
+  "auto_update": true,
+  "vim_mode": true,
+  "base_keymap": "VSCode",
+  "restore_on_startup": "last_session",
+  "preferred_line_length": 100,
+  "ui_font_size": 16,
+  "buffer_font_size": 14,
+  "theme": {
+    "mode": "dark",
+    "light": "Atelier Cave Light",
+    "dark": "Atelier Forest Dark"
+  },
+  "git_diff": true,
+  "lsp": {
+    "pylsp": {
+      "settings": {
+        "plugins": {
+          "mypy": {
+            "enabled": true
+          },
+          "pycodestyle": {
+            "enabled": false
+          }
+        }
+      }
+    }
+  },
+  "languages": {
+    "Python": {
+      "language_servers": ["!pyright", "ruff", "pylsp"],
+      "format_on_save": "on",
+      "formatter": [
+        {
+          "code_actions": {
+            "source.organizeImports.ruff": true,
+            "source.fixAll.ruff": true
+          }
+        },
+        {
+          "language_server": {
+            "name": "ruff"
+          }
+        }
+      ]
+    }
+  }
+}
+// Folder-specific settings
+//
+// For a full list of overridable settings, and general information on folder-specific settings,
+// see the documentation: https://zed.dev/docs/configuring-zed#settings-files
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
